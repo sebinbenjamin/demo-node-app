@@ -1,8 +1,10 @@
 # To create a docker image from a dockerfile
-docker build -t sebin/express-demo-app .
+docker build -t me/express-demo-app .
 
 # To start a container from the image
+<!-- You will need to change the ports for this to work -->
 docker run -p 4000:3000 --name demo-node-app sebin/express-demo-app
+
 
 
 # To start a MYSQL instance
