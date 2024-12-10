@@ -5,7 +5,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
-EXPOSE 3000
+EXPOSE 5000
 
 # Command to be used when the image is run
 CMD ["node", "index.js"]
